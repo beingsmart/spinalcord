@@ -5,6 +5,7 @@
         <url>http://github.com/beingsmart/spinalcord/tree/${scm.branch}</url>
         <connection>scm:git:https://github.com/beingsmart/spinalcord.git</connection>
         <developerConnection>scm:git:https://github.com/beingsmart/spinalcord.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>
