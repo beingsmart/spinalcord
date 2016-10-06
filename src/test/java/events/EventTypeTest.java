@@ -14,12 +14,12 @@ public class EventTypeTest {
 
     @Before
     public void setup() {
-        e = EventType.UNIQUE_PARKING_LOCATIONS;
+        e = EventType.PARKING;
     }
 
     @Test
     public void getType() throws Exception {
-        assertEquals(e.getType(), "unique_parking_locations");
+        assertEquals(e.get(), "DEETS");
     }
 
 }

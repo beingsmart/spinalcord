@@ -4,17 +4,19 @@ package events;
  * Created by sarath on 24/09/16.
  */
 public enum EventType {
-    UNIQUE_PARKING_LOCATIONS("unique_parking_locations"),
+    UNIQUE_PARKING_LOCATIONS("UNIQUE_PARKING_LOCATIONS"),
     USER_ACTIVITY("user_activity"),
-    DEETS("deets");
+    PARKING("DEETS"),
+    AD_CLICK("DEETS"),
+    APP_OPEN("DEETS");
 
-    private final String type;
+    private final String collection;
 
     EventType(String type) {
-        this.type = type;
+        this.collection = type;
     }
 
-    public String getType() {
-        return type;
+    public String get() {
+        return collection;
     }
 }
