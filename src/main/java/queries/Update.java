@@ -26,6 +26,9 @@ public class Update extends Query {
             setQuery.put(field, (Integer) value);
         } else if (value instanceof String) {
             setQuery.put(field, (String) value);
+        } else if (value instanceof Double[]) {
+            Double coords[] = (Double[]) value;
+            setQuery.withArray(field).add(coords[1]).add(coords[0]);
         }
         return this;
     }
