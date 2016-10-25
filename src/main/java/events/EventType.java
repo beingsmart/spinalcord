@@ -8,6 +8,7 @@ public enum EventType {
     USER_ACTIVITY("user_activity"),
     PARKING("DEETS"),
     VACATING("DEETS"),
+    LOCATING("DEETS"),
     AD_CLICK("DEETS"),
     APP_OPEN("DEETS");
 
